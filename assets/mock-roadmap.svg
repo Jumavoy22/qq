@@ -1,0 +1,16 @@
+<svg width="360" height="240" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="360" height="240" rx="26" fill="#0a172c"/>
+  <path d="M40 190 C80 150 120 210 160 170 C200 130 240 210 280 150 C312 106 332 166 320 112" stroke="#71f4c8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="80" cy="168" r="8" fill="#71f4c8"/>
+  <circle cx="160" cy="170" r="8" fill="#71f4c8"/>
+  <circle cx="240" cy="188" r="8" fill="#71f4c8"/>
+  <circle cx="300" cy="140" r="8" fill="#71f4c8"/>
+  <text x="60" y="70" fill="#9fb0d0" font-family="'Segoe UI', sans-serif" font-size="16">Idea</text>
+  <text x="140" y="90" fill="#9fb0d0" font-family="'Segoe UI', sans-serif" font-size="16">Prototype</text>
+  <text x="212" y="70" fill="#9fb0d0" font-family="'Segoe UI', sans-serif" font-size="16">MVP</text>
+  <text x="280" y="90" fill="#9fb0d0" font-family="'Segoe UI', sans-serif" font-size="16">Launch</text>
+  <rect x="48" y="100" width="40" height="6" rx="3" fill="#1d3c6b"/>
+  <rect x="128" y="120" width="44" height="6" rx="3" fill="#1d3c6b"/>
+  <rect x="208" y="100" width="48" height="6" rx="3" fill="#1d3c6b"/>
+  <rect x="288" y="120" width="52" height="6" rx="3" fill="#1d3c6b"/>
+</svg>

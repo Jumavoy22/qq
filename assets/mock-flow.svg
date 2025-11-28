@@ -1,0 +1,28 @@
+<svg width="420" height="280" viewBox="0 0 420 280" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="420" height="280" rx="30" fill="#08162c"/>
+  <g transform="translate(40,60)">
+    <rect width="90" height="90" rx="18" fill="#113057" stroke="#1f4775"/>
+    <text x="20" y="50" fill="#71f4c8" font-family="'Segoe UI', sans-serif" font-size="14">Voice</text>
+  </g>
+  <g transform="translate(170,60)">
+    <rect width="90" height="90" rx="18" fill="#101d36" stroke="#1f4775"/>
+    <text x="15" y="40" fill="#9fb0d0" font-family="'Segoe UI', sans-serif" font-size="13">LLM</text>
+    <text x="10" y="64" fill="#9fb0d0" font-family="'Segoe UI', sans-serif" font-size="10">Intent + Policy</text>
+  </g>
+  <g transform="translate(300,60)">
+    <rect width="90" height="90" rx="18" fill="#101d36" stroke="#1f4775"/>
+    <text x="16" y="40" fill="#9fb0d0" font-family="'Segoe UI', sans-serif" font-size="13">Docs</text>
+    <text x="6" y="64" fill="#9fb0d0" font-family="'Segoe UI', sans-serif" font-size="10">OneDrive + CRM</text>
+  </g>
+  <path d="M130 105 H170" stroke="#71f4c8" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M260 105 H300" stroke="#71f4c8" stroke-width="4" marker-end="url(#arrow)"/>
+  <g transform="translate(140,180)">
+    <rect width="240" height="60" rx="18" fill="#132746" stroke="#1f4775"/>
+    <text x="20" y="36" fill="#71f4c8" font-family="'Segoe UI', sans-serif" font-size="14">Audit trail · Notifications · Compliance</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" fill="#71f4c8">
+      <path d="M0 0 L10 5 L0 10 z"/>
+    </marker>
+  </defs>
+</svg>

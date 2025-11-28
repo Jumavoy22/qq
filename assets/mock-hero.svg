@@ -1,0 +1,16 @@
+<svg width="440" height="320" viewBox="0 0 440 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="440" height="320" rx="32" fill="#0b1f3d"/>
+  <rect x="32" y="32" width="240" height="180" rx="20" fill="#101f39" stroke="#1d3c6b"/>
+  <rect x="48" y="64" width="208" height="20" rx="10" fill="#1b4778"/>
+  <rect x="48" y="96" width="168" height="14" rx="7" fill="#1d5b94"/>
+  <rect x="48" y="124" width="120" height="14" rx="7" fill="#163458"/>
+  <path d="M66 156 C82 142 92 170 110 158 C126 148 136 176 152 162 C168 150 178 182 198 162" stroke="#71f4c8" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <rect x="292" y="52" width="120" height="40" rx="12" fill="#143257" stroke="#1d3c6b"/>
+  <text x="302" y="78" fill="#71f4c8" font-family="'Segoe UI', sans-serif" font-size="14">Voice Prompt</text>
+  <rect x="292" y="116" width="120" height="152" rx="20" fill="#101b32" stroke="#1d3c6b"/>
+  <rect x="308" y="140" width="88" height="18" rx="9" fill="#1d5b94"/>
+  <rect x="308" y="172" width="72" height="12" rx="6" fill="#173b63"/>
+  <rect x="308" y="196" width="88" height="12" rx="6" fill="#173b63"/>
+  <circle cx="348" cy="246" r="28" fill="#71f4c8"/>
+  <path d="M338 246 L350 236 V256 Z" fill="#051427"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="360" height="280" viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="360" height="280" rx="28" fill="#091427"/>
+  <circle cx="100" cy="120" r="48" fill="#132745" stroke="#1e3d65" stroke-width="4"/>
+  <circle cx="260" cy="120" r="48" fill="#132745" stroke="#1e3d65" stroke-width="4"/>
+  <circle cx="100" cy="120" r="20" fill="#1d3c6b"/>
+  <circle cx="260" cy="120" r="20" fill="#1d3c6b"/>
+  <rect x="68" y="176" width="64" height="48" rx="16" fill="#71f4c8" opacity="0.2"/>
+  <rect x="228" y="176" width="64" height="48" rx="16" fill="#5cabff" opacity="0.2"/>
+  <text x="60" y="56" fill="#9fb0d0" font-family="'Segoe UI', sans-serif" font-size="18">Architecture</text>
+  <text x="210" y="56" fill="#9fb0d0" font-family="'Segoe UI', sans-serif" font-size="18">Delivery</text>
+  <path d="M140 210 H220" stroke="#71f4c8" stroke-width="4" stroke-dasharray="10 6"/>
+  <text x="90" y="240" fill="#71f4c8" font-family="'Segoe UI', sans-serif" font-size="14">MCP · Azure</text>
+  <text x="230" y="240" fill="#5cabff" font-family="'Segoe UI', sans-serif" font-size="14">CRM · Rapid Build</text>
+</svg>
