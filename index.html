@@ -3,14 +3,246 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Page</title>
+    <title>Agrobank Business Copilot Pitch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .site-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+        
+        .demo-link {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .demo-link:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+        }
+    </style>
 </head>
 <body>
-    <h1>My Video</h1>
-    <video controls autoplay muted loop style="width: 100vw; height: 100vh; object-fit: cover;">
-        <source src="assets/new-video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <audio id="background-audio" preload="auto">
+        <source src="assets/output.wav" type="audio/wav">
+    </audio>
+    <header class="site-header">
+        <div class="logo-mark">Agrobank Copilot</div>
+        <a href="demo.html" class="demo-link">
+            🎥 Demo
+        </a>
+    </header>
+
+    <main class="deck" aria-live="polite">
+        <section class="slide is-active" data-index="0">
+            <div class="hero-copy">
+                <p class="eyebrow">Tashkent · 2025</p>
+                <h1>Agrobank Business Copilot</h1>
+                <p class="lead">Business client AI assistant that turns chaotic conversations into compliant banking documents via messengers</p>
+                <button id="play-audio-btn" class="btn primary">Play Intro</button>
+            </div>
+        </section>
+
+         <section class="slide" data-index="1">
+            <div class="grid two-columns">
+                <div>
+                    <p class="eyebrow">1 · Problem</p>
+                    <h2>The Digital Divide Blocks Growth</h2>
+                    <ul class="feature-list">
+                        <li><strong>Skill gap:</strong> Complex CRMs & cloud tools intimidate relationship-driven managers.</li>
+                        <li><strong>Voice culture:</strong> Critical decisions are trapped in 30-second voice notes, not systems.</li>
+                        <li><strong>Compliance risk:</strong> Documentation lags behind conversations; banks lose visibility.</li>
+                        <li><strong>Remote friction:</strong> Clients want instant answers online, not long queues at branches.</li>
+                    </ul>
+                </div>
+                <figure class="card">
+                    <img src="assets/mock-friction.svg" alt="Mocked chart showing disconnect between calls and compliance"/>
+                    
+                </figure>
+            </div>
+        </section>
+
+        <section class="slide" data-index="2">
+            <div class="grid two-columns">
+                <div>
+                    <p class="eyebrow">2 · Solution</p>
+                    <h2>Bring the Bank Into Their Chats</h2>
+                   <ul class="pill-list">
+                        <li>
+                           <strong>Auto-workflows</strong>
+                           <span class="pill-sub">Create folder in the cloud, create CRM card, generate contract, send to client via messenger apps</span>
+                       </li>
+                       <li>
+                           <strong>Multi-system Data Merging</strong>
+                           <span class="pill-sub">Connects Google Sheets, OneDrive documents, and CRM deals</span>
+                       </li>
+                       <li>
+                           <strong>CRM Integration via Cloud Services</strong>
+                           <span class="pill-sub">Links files, auto-creates folders</span>
+                       </li>                   
+                       <li>
+                            <strong>Voice-to-Document AI</strong>
+                            <span class="pill-sub">Uzbek and Russian speech recognition, LLM intent extraction, document generation</span>
+                       </li>
+                    </ul>
+                </div>
+                 <figure class="mockup hero-visual">
+                    <img src="assets/slide1.png" alt="Illustration of AI assistant responding to a voice command">
+                </figure>   
+            </div>
+        </section>
+
+        <section class="slide" data-index="3">
+            <div class="grid two-columns">
+                <div>
+                    <p class="eyebrow">3 · Team details</p>
+                    <h2>Team That Ships the Copilot</h2>
+                    <div class="team">
+                        <div class="team-card">
+                            <div>
+                                <strong>Azizkhon Ishankhonov</strong>
+                                <span>System Architect · Backend & AI</span>
+                                <p>.NET, Cloud, AI</p>
+                            </div>
+                            <div class="team-meta">
+                                <div class="team-avatar"></div>
+                                <a href="https://www.linkedin.com/in/azizxon/" class="linkedin-link">
+                                    <svg viewBox="0 0 48 48" fill="currentColor" width="48" height="48"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <div>
+                                <strong>Makhmud Khamdamov</strong>
+                                <span>Full-stack Developer</span>
+                                <p>CRM & banking integration, enterprise workflows, rapid prototyping.</p>
+                            </div>
+                            <div class="team-meta">
+                                <div class="team-avatar"></div>
+                                <a href="https://www.linkedin.com/in/makhmud-khamdamov-010100279/" class="linkedin-link">
+                                    <svg viewBox="0 0 48 48" fill="currentColor" width="48" height="48"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-index="4">
+            <div class="grid two-columns">
+                <div>
+                    <p class="eyebrow">4 · Why your team can solve this?</p>
+                    <h2>Why We Win Hackathons</h2>
+                    <ul class="feature-list">
+                        <li><strong>Deep insight:</strong> We lived with users; the pain is validated.</li>
+                        <li><strong>Working prototype:</strong> Messenger bot with MCP</li>
+                        <li><strong>Expertise:</strong> An experienced team that shipped a couple of successful projects from scratch.</li>
+                    </ul>
+                </div>
+
+                <article class="stats">
+
+                    <div>
+                        <span class="stat">3</span>
+                        <p>AI components/products/tools</p>
+                    </div>
+                    <div>
+                        <span class="stat">30K</span>
+                        <p>More than 30,000 users within a limited audience</p>
+                    </div>
+                    <div>
+                        <span class="stat">Value</span>
+                        <p>Our solutions deliver significant value to users as well as stakeholders.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="slide" data-index="5">
+            <div class="grid three-columns roadmap">
+                <div>
+                    <p class="eyebrow">5 · Roadmap</p>
+                    <h2>Roadmap & Current stage</h2>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <strong>Idea</strong>
+                        <span>Problem validation</span>
+                    </li>
+                    <li>
+                        <strong>Prototype</strong>
+                        <span>Build bot with limited features</span>
+                    </li>
+                    <li>
+                        <strong>MVP</strong>
+                        <span>Integration with cloud and other services like CRM, Cloud storage</span>
+                    </li>
+                    <li>
+                        <strong>Launch</strong>
+                        <span>Bank APIs, dialect support, security audit</span>
+                    </li>
+                </ul>
+                <figure class="mockup">
+                    <img src="assets/mock-roadmap.svg" alt="Stylized roadmap illustration"/>
+                </figure>
+            </div>
+        </section>
+
+        <section class="slide approach" data-index="6">
+            <div class="grid two-columns">
+                <div>
+                    <p class="eyebrow">6 · Approach</p>
+                    <h2>How you plan to solve it</h2>
+                    <h3>Technology & AI Stack</h3>
+                    <ul class="feature-list">
+                        <li><strong>Backend:</strong> .NET + Bot Framework Adapter (REST + Webhooks)</li>
+                        <li><strong>Languages:</strong> C# core services; Any language to build business functions/logic</li>
+                        <li><strong>Integrations:</strong> OneDrive API, Google Drive API, EscoCRM (open source)</li>
+                        <li><strong>Architecture:</strong> Business logic seperated from bot framework adapter</li>
+                        <li><strong>AI Usage:</strong> Azure Open AI for summarization, embeddings for semantic retrieval</li>
+                        <li><strong>Extensibility:</strong> Clients add custom MCP modules to encapsulate business logic</li>
+                    </ul>
+                </div>
+                <img src="assets/diagram-export-11-30-2025-5_11_50-PM.svg" alt="Architecture Diagram">
+            </div>
+        </section>
+
+        <section class="slide final-slide" data-index="7">
+            <div class="hero-copy">
+                <h1>Danke Schön!</h1>
+            </div>
+        </section>
+    </main>
+
+    <footer class="deck-controls" aria-label="Slide controls">
+        <button class="control" data-direction="prev" aria-label="Previous slide">◂</button>
+        <div class="progress" aria-live="polite">
+            <span id="progress-label">Slide 1 of 8</span>
+            <div class="bar"><span id="progress-bar"></span></div>
+        </div>
+        <button class="control" data-direction="next" aria-label="Next slide">▸</button>
+    </footer>
+
+    <noscript>
+        <p class="no-js">Enable JavaScript to navigate the slide deck interactively. Slides are stacked vertically as a fallback.</p>
+    </noscript>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
